@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <form action="test.py" method="post"  >
+        <label for="u">Username</label><br>
+        <input id="u" autofocus type="text" placeholder="Your Name?" required><br>
+        <hr>
+        <label for="s">password</label><br>
+        <input id="s" type="password" placeholder="password?"  minlength="8" maxlength="10" name="password"><br>
+        <hr>
+        <label for="m">Mobile</label><br>
+        <input id="m"type="text" placeholder="your number?" value="123(234)20100+"><br>
+        <hr>
+        <label for="email">Email</label><br>
+        <input id="email" type="email" placeholder=".....@gmail.com" required>
+        <hr>
+        <br>
+        <label for="h">Subject</label><br>
+        <input id="h" placeholder="subject" list="Subject">
+        <datalist id="Subject">
+            <option value="database">
+            <option value="html">
+            <option value="math">
+            <option value="statistics">
+            <option value="php">
+        </datalist><br>
+        <input hidden type="text" value="123434">
+<br>
+        <hr>
+        <input type="submit" value="Send Data">
+        <input type="reset" value="Empty Form">
+        <br>
+
+
+    </form>
+</body>
